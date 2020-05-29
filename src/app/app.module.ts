@@ -3,12 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+import { NgQrScannerModule } from 'angular2-qrscanner';
+
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    NgQrScannerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
